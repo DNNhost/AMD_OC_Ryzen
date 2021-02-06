@@ -1,6 +1,6 @@
 # OpenCore EFI for ASRock X570 Creator - AMD Hackintosh - BIG SUR - OpenCore 6.6
 
-Thunderbolt works on cold start, bluetooth works all the time
+Thunderbolt works on cold start,  at least one of them does, bluetooth works all the time
 
   
 I have a SAPPHIRE NITRO+ RX VEGA64 8G HBM2 graphics card and therefore only this SSDT  in ACPI 
