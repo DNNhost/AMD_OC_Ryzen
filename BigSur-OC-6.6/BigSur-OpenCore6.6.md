@@ -59,7 +59,7 @@ https://www.tonymacx86.com/threads/success-gigabyte-designare-z390-thunderbolt-3
 
 
 ### Credits
-CaseySJ  
+CaseySJ   https://forum.amd-osx.com/index.php?threads/big-sur-on-x570-creator-sleep-wake-works.815/
 https://www.tonymacx86.com/members/caseysj.2134452/
 https://www.tonymacx86.com/search/6720387/?q=ASRock+X570+Creator&c[users]=CaseySJ&o=date
 
