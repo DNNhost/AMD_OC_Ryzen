@@ -54,6 +54,8 @@ Turned off the above 4G dedoding and putin boot-args   npci=0x2000
 
 ## E. Discussion
 
+https://forum.amd-osx.com/index.php?threads/big-sur-on-x570-creator-sleep-wake-works.815/
+
 https://www.tonymacx86.com/threads/success-gigabyte-designare-z390-thunderbolt-3-i7-9700k-amd-rx-580.267551/
 
 
