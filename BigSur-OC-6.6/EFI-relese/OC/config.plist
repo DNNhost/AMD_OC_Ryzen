@@ -96,25 +96,9 @@
 			</dict>
 			<dict>
 				<key>Comment</key>
-				<string>SSDT-X570-Cr-TB3-BuiltIn.aml</string>
-				<key>Path</key>
-				<string>SSDT-X570-Cr-TB3-BuiltIn.aml</string>
-				<key>Enabled</key>
-				<true/>
-			</dict>
-			<dict>
-				<key>Comment</key>
 				<string>SSDT-X570-Cr-TB3-GPP9-AR-slot-4.aml</string>
 				<key>Path</key>
 				<string>SSDT-X570-Cr-TB3-GPP9-AR-slot-4.aml</string>
-				<key>Enabled</key>
-				<true/>
-			</dict>
-			<dict>
-				<key>Comment</key>
-				<string>SSDT-X570-Cr-TB3-GPP9-TR-slot-4.aml</string>
-				<key>Path</key>
-				<string>SSDT-X570-Cr-TB3-GPP9-TR-slot-4.aml</string>
 				<key>Enabled</key>
 				<true/>
 			</dict>
@@ -131,14 +115,6 @@
 				<string>SSDT-X570-NO-CNVW.aml</string>
 				<key>Path</key>
 				<string>SSDT-X570-NO-CNVW.aml</string>
-				<key>Enabled</key>
-				<true/>
-			</dict>
-			<dict>
-				<key>Comment</key>
-				<string>SSDT-X570-NVMe-ANS1-GPP0-noTB.aml</string>
-				<key>Path</key>
-				<string>SSDT-X570-NVMe-ANS1-GPP0-noTB.aml</string>
 				<key>Enabled</key>
 				<true/>
 			</dict>
@@ -163,14 +139,6 @@
 				<string>SSDT-X570-TB-PWR-Builtin.aml</string>
 				<key>Path</key>
 				<string>SSDT-X570-TB-PWR-Builtin.aml</string>
-				<key>Enabled</key>
-				<true/>
-			</dict>
-			<dict>
-				<key>Comment</key>
-				<string>SSDT-X570-Vega64-slot-1.aml</string>
-				<key>Path</key>
-				<string>SSDT-X570-Vega64-slot-1.aml</string>
 				<key>Enabled</key>
 				<true/>
 			</dict>
@@ -1906,9 +1874,9 @@
 			<key>PickerAudioAssist</key>
 			<false/>
 			<key>PickerMode</key>
-			<string>Builtin</string>
+			<string>External</string>
 			<key>PickerVariant</key>
-			<string>Auto</string>
+			<string>Modern</string>
 			<key>PollAppleHotKeys</key>
 			<false/>
 			<key>ShowPicker</key>
@@ -2102,7 +2070,7 @@
 				<key>SystemAudioVolume</key>
 				<data>Rg==</data>
 				<key>boot-args</key>
-				<string>-v keepsyms=1 npci=0x2000  alcid=1</string>
+				<string>-v debug=0x100 keepsyms=1 npci=0x2000  alcid=1</string>
 				<key>csr-active-config</key>
 				<data>AAAAAA==</data>
 				<key>prev-lang:kbd</key>
@@ -2175,11 +2143,11 @@
 			<key>MaxBIOSVersion</key>
 			<false/>
 			<key>MLB</key>
-			<string>########get your own#####</string>
+			<string>00000000000</string>
 			<key>ProcessorType</key>
 			<integer>0</integer>
 			<key>ROM</key>
-			<data>AFAFUAU=</data>
+			<data>cIXC3Nf4</data>
 			<key>SpoofVendor</key>
 			<true/>
 			<key>SystemMemoryStatus</key>
@@ -2187,9 +2155,9 @@
 			<key>SystemProductName</key>
 			<string>iMacPro1,1</string>
 			<key>SystemSerialNumber</key>
-			<string>########get your own#####</string>
+			<string>00000000</string>
 			<key>SystemUUID</key>
-			<string>########get your own#####</string>
+			<string>00000000000</string>
 		</dict>
 		<key>UpdateDataHub</key>
 		<true/>
@@ -2224,19 +2192,19 @@
 			<key>AudioCodec</key>
 			<integer>0</integer>
 			<key>AudioDevice</key>
-			<string>PciRoot(0x0)/Pci(0x1b,0x0)</string>
+			<string>PciRoot(0x0)/Pci(0x8,0x1)/Pci(0x0,0x4)</string>
 			<key>AudioOut</key>
-			<integer>0</integer>
+			<integer>3</integer>
 			<key>AudioSupport</key>
-			<false/>
+			<true/>
 			<key>MinimumVolume</key>
-			<integer>20</integer>
+			<integer>50</integer>
 			<key>PlayChime</key>
-			<string>Auto</string>
+			<string>Enabled</string>
 			<key>SetupDelay</key>
-			<integer>0</integer>
+			<integer>500000</integer>
 			<key>VolumeAmplifier</key>
-			<integer>0</integer>
+			<integer>71</integer>
 		</dict>
 		<key>ConnectDrivers</key>
 		<true/>
